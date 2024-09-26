@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #818274;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #10454f84;
+    padding: 20px 0;
+    /* transition: background-color 0.3s ease; */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #d1657a;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+section:not(#home) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home {
+    /* background-color: #f5abab; */
+    background-image: url(https://i.pinimg.com/564x/b7/26/49/b726493e1025760de8c80958b3d89c21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #10454f ;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.content .text {
+    max-width: 600px;
+    text-align:left;
+}
+
+.content .text h2 {
+    font-size: 2em;
+    margin-bottom:20px;
+    color: #A3AB78;
+}
+
+.content .text p{
+    font-size: 1.1em;
+    color: #d1657a;
+}
+
+#service {
+    background-color:#506266;
+}
+#about{
+    background-color: #818274;
+}
+#contact {
+    background-color:#A3AB78;
+}
+#sobremim {
+    background-color: #10454F;
+}
+
+.cta-button {
+    margin-top: 30px;
+    background-color:#d1657a ;
+    color: #BDE038;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px #10454F;
+    transition: background-color 1s ease, transform 1s ease;
+}
+
+.cta-button:hover{
+    background-color: #A3AB78;
+
+
+}
+
+
+#about .content .text h2 { 
+    color: #506266;
+
+}
+
+#about .content .text p {
+    color: #10454f;
+}
+
+#contact .content .text h2 {
+    color: #10454F;
+}
+
+#contact .content .text p {
+    color: #506266;
+}
+#sobremim .content .text h2 {
+    color: #d1657a;
+}
+#sobremim .content .text p {
+    color: #A3AB78;
+}
+
+Footer{
+    height: 100px;
+    background-color:#10454F ;
+    color:#d1657a;
+}
